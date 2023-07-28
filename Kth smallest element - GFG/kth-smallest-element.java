@@ -34,14 +34,10 @@ class GFG {
 //User function Template for Java
 
 class Solution{
-     //for kth smallest : arr[k-1];
-    //for kth largest : arr[n-k];
     public static int kthSmallest(int[] arr, int l, int r, int k) 
     { 
-       
         Arrays.sort(arr);
         return arr[k-1];
-        
         //Your code here
     } 
 }
